@@ -1,4 +1,6 @@
 @import 'animate.css';
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
 
 * {
   box-sizing: border-box;
@@ -6,4 +8,5 @@
 
 body {
   background-color: #f8d4e2;
+  font-family: 'Lato', sans-serif;
 }

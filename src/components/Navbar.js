@@ -16,16 +16,16 @@ const Navbar = () => {
       <div className={`Nav-links ${mobileMenuOpen ? 'mobile-open' : ''}`}>
         <ul>
           <li>
-            <a href="#home">Home</a>
+            <a href="#home">HOME</a>
           </li>
           <li>
-            <a href="#about">About me</a>
+            <a href="#about">ABOUT ME</a>
           </li>
           <li>
-            <a href="projects">Projects</a>
+            <a href="projects">PROJECTS</a>
           </li>
           <li>
-            <a href="contact">Contact</a>
+            <a href="contact">CONTACT</a>
           </li>
         </ul>
       </div>
