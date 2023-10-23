@@ -1,14 +1,11 @@
-import './App.css';
-import { Routes, Route } from 'react-router-dom';
-import Layout from './components/Layout';
+import './styles/App.css';
+import Navbar from './components/Navbar';
 
 function App() {
   return (
-    <>
-      <Routes>
-        <Route path="/" element={<Layout />} />
-      </Routes>
-    </>
+    <div className="App">
+      <Navbar />
+    </div>
   );
 }
 
