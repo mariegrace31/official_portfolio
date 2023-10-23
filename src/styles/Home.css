@@ -1,0 +1,45 @@
+.presentation a {
+  text-decoration: none;
+  border: 2px solid #f7489a;
+  color: black;
+  padding: 10px;
+  margin: 20px 0 0 85px;
+  font-size: 18px;
+  width: 45%;
+  border-radius: 6px;
+}
+
+.presentation a:hover {
+  background-color: #f7489a;
+}
+
+.presentation {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.header {
+  background-color: #f8e9f0;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  border-bottom-right-radius: 90px;
+}
+
+.about-me span {
+  font-weight: bold;
+  color: #f7489a;
+}
+
+.presentation h1 {
+  font-size: 25px;
+}
+
+.presentation p {
+  font-size: 19px;
+}
