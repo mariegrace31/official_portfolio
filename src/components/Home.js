@@ -6,15 +6,13 @@ const Home = () => (
     <div className="presentation">
       <h1>Hello &#128075;, Welcome to my world!</h1>
       <p className="about-me">
-          I&apos;m
-        <span>
-           Marie-Grace Bahati
-        </span>
+        I&apos;m
+        <span className="name"> Marie-Grace Bahati</span>
         ,
         <br />
-        a passionate Full Stack Developer.
+        a passionate Software Engineer.
       </p>
-        <a href="#projects">See my projects</a>
+      <a className="projects-btn" href="#projects">SEE MY PROJECTS</a>
     </div>
   </div>
 );

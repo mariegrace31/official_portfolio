@@ -4,8 +4,8 @@
   color: black;
   padding: 10px;
   margin: 20px 0 0 85px;
-  font-size: 18px;
   width: 45%;
+  font-size: 14px;
   border-radius: 6px;
 }
 
@@ -15,16 +15,17 @@
 
 .presentation {
   display: flex;
+  gap: 7px;
   flex-direction: column;
-  gap: 10px;
+  width: 93%;
 }
 
 .header {
   background-color: #f8e9f0;
   height: 100vh;
+  width: 100%;
   display: flex;
   flex-direction: column;
-  gap: 10px;
   align-items: center;
   justify-content: center;
   text-align: center;
@@ -36,8 +37,12 @@
   color: #f7489a;
 }
 
+.name {
+  font-size: 18px;
+}
+
 .presentation h1 {
-  font-size: 25px;
+  font-size: 19px;
 }
 
 .presentation p {
