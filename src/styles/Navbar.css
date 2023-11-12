@@ -101,7 +101,9 @@ span {
 
   .nav-bar {
     justify-content: space-between;
-    padding: 10px;
+    padding: 7px;
+    align-items: center;
+    text-align: center;
   }
 
   .nav-bar p {
@@ -120,6 +122,7 @@ span {
     list-style: none;
     right: 0;
     width: 450px;
+    margin: 6px;
     background-color: #f8d4e2;
     position: relative;
     box-shadow: none;

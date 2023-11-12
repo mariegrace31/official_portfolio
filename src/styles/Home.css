@@ -29,7 +29,7 @@
   align-items: center;
   justify-content: center;
   text-align: center;
-  border-bottom-right-radius: 90px;
+  border-bottom-right-radius: 100px;
 }
 
 .about-me span {
@@ -47,4 +47,32 @@
 
 .presentation p {
   font-size: 19px;
+}
+
+/* DESKETOP VERSION */
+
+@media screen and (min-width: 768px) {
+  .presentation h1 {
+    font-size: 28px;
+  }
+
+  .about-me span {
+    font-size: 25px;
+  }
+
+  .presentation p {
+    font-size: 25px;
+  }
+
+  .presentation {
+    gap: 15px;
+  }
+
+  .presentation a {
+    padding: 14px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 12%;
+    font-size: 17px;
+  }
 }
