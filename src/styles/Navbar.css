@@ -1,0 +1,152 @@
+.nav-bar {
+  margin: 0;
+  padding: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+}
+
+.nav-bar p {
+  font-size: 25px;
+  margin-top: -9px;
+}
+
+.bars {
+  font-size: 23px;
+}
+
+.close {
+  font-size: 23px;
+}
+
+span {
+  font-weight: bold;
+  font-size: 34px;
+  color: #f7337e;
+}
+
+.Nav-links {
+  display: none;
+}
+
+.Nav-links ul {
+  display: flex;
+  width: 170px;
+  flex-direction: column;
+  position: absolute;
+  top: 120%;
+  box-shadow: -3px 6px 8px rgba(0, 0, 0, 0.2);
+  right: 0;
+  padding: 4px;
+  margin-top: 26px;
+  list-style-type: '*';
+  background-color: #f8d4e2;
+  transform: translateX(100%);
+  transition: transform 0.5s ease-in-out;
+}
+
+.Nav-links ul li {
+  text-align: left;
+  margin: 8px;
+}
+
+.Nav-links ul li a {
+  text-decoration: underline;
+  color: black;
+  font-size: 16px;
+  margin: 4px;
+  padding: 4px;
+  transition: color 0.3s, background-color 0.3s;
+}
+
+.Nav-links.mobile-open {
+  display: flex;
+  animation: slideDown 0.5s forwards;
+}
+
+@keyframes slideDown {
+  from {
+    transform: translateY(-100%);
+    opacity: 0;
+  }
+
+  to {
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
+
+.mobile-menu-toggle {
+  display: flex;
+  cursor: pointer;
+  transition: transform 0.3s;
+}
+
+.mobile-menu-toggle:focus {
+  outline: none;
+}
+
+.mobile-menu-toggle:hover {
+  transform: scale(1.1);
+}
+
+/* DESKETOP VERSION */
+
+@media screen and (min-width: 768px) {
+  * {
+    margin: 0;
+    padding: 0;
+  }
+
+  .nav-bar {
+    justify-content: space-between;
+    padding: 7px;
+    align-items: center;
+    text-align: center;
+  }
+
+  .nav-bar p {
+    margin-left: 100px;
+    font-size: 35px;
+  }
+
+  .Nav-links {
+    display: flex;
+  }
+
+  .Nav-links ul {
+    display: flex;
+    flex-direction: row;
+    gap: 5px;
+    list-style: none;
+    right: 0;
+    width: 450px;
+    margin: 6px;
+    background-color: #f8d4e2;
+    position: relative;
+    box-shadow: none;
+    transform: none;
+    transition: none;
+  }
+
+  .Nav-links ul li a {
+    text-decoration: none;
+    font-size: 16px;
+    transition: all 0.3s ease;
+    text-align: center;
+    align-items: center;
+  }
+
+  .Nav-links ul li a:hover {
+    color: #f7337e;
+  }
+
+  .mobile-menu-toggle {
+    display: none;
+  }
+
+  span {
+    font-size: 40px;
+  }
+}

@@ -1,0 +1,78 @@
+.presentation a {
+  text-decoration: none;
+  border: 2px solid #f7489a;
+  color: black;
+  padding: 10px;
+  margin: 20px 0 0 85px;
+  width: 45%;
+  font-size: 14px;
+  border-radius: 6px;
+}
+
+.presentation a:hover {
+  background-color: #f7489a;
+}
+
+.presentation {
+  display: flex;
+  gap: 7px;
+  flex-direction: column;
+  width: 93%;
+}
+
+.header {
+  background-color: #f8e9f0;
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  border-bottom-right-radius: 100px;
+}
+
+.about-me span {
+  font-weight: bold;
+  color: #f7489a;
+}
+
+.name {
+  font-size: 18px;
+}
+
+.presentation h1 {
+  font-size: 19px;
+}
+
+.presentation p {
+  font-size: 19px;
+}
+
+/* DESKETOP VERSION */
+
+@media screen and (min-width: 768px) {
+  .presentation h1 {
+    font-size: 28px;
+  }
+
+  .about-me span {
+    font-size: 25px;
+  }
+
+  .presentation p {
+    font-size: 25px;
+  }
+
+  .presentation {
+    gap: 15px;
+  }
+
+  .presentation a {
+    padding: 14px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 12%;
+    font-size: 17px;
+  }
+}
