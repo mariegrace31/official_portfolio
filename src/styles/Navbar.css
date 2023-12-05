@@ -1,3 +1,9 @@
+:root {
+  --main-color: #9a46df;
+  --second-color: #e0aaff;
+  --third-color: #fff;
+}
+
 .nav-bar {
   margin: 0;
   padding: 10px;
@@ -23,7 +29,7 @@
 span {
   font-weight: bold;
   font-size: 34px;
-  color: #f7337e;
+  color: var(--main-color);
 }
 
 .Nav-links {
@@ -41,7 +47,7 @@ span {
   padding: 4px;
   margin-top: 26px;
   list-style-type: '*';
-  background-color: #f8d4e2;
+  background-color: var(--third-color);
   transform: translateX(100%);
   transition: transform 0.5s ease-in-out;
 }
@@ -123,7 +129,7 @@ span {
     right: 0;
     width: 450px;
     margin: 6px;
-    background-color: #f8d4e2;
+    background-color: var(--third-color);
     position: relative;
     box-shadow: none;
     transform: none;
@@ -139,7 +145,7 @@ span {
   }
 
   .Nav-links ul li a:hover {
-    color: #f7337e;
+    color: var(--main-color);
   }
 
   .mobile-menu-toggle {
@@ -147,6 +153,6 @@ span {
   }
 
   span {
-    font-size: 40px;
+    font-size: 50px;
   }
 }

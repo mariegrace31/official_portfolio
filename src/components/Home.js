@@ -12,7 +12,7 @@ const Home = () => (
         <br />
         a passionate Software Engineer.
       </p>
-      <a className="projects-btn" href="#projects">SEE MY PROJECTS</a>
+      <a className="projects-btn" href="#projects">See my projects</a>
     </div>
   </div>
 );
