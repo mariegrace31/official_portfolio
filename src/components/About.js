@@ -1,23 +1,39 @@
 import React from 'react';
+import { FaCode } from 'react-icons/fa6';
+import { BiCodeBlock } from 'react-icons/bi';
+import { HiLightBulb } from 'react-icons/hi';
 import programmingGif from '../assets/ProgrammingGif.gif';
-import resume from '../assets/resume.pdf'
+import resume from '../assets/resume.pdf';
 
 const About = () => (
   <div className="about-section" id="about">
     <h2>About</h2>
-    <hr className="underline"/>
+    <hr className="underline" />
     <div className="aboutMe">
       <p>
-        I'm Marie-Grace, a tech-loving software engineer who is passionate about coding, problem-solving, and collaborating with global peers to build innovative solutions.
-        I strongly believe in lifelong learning that's why I'm always excited about learning new things and improving myself.Feel free to explore my portfolio to see my work and experience.
-        If you like what you see and have a project in mind, don't hesitate to <a href="#contact" className="reach">reach out.</a> <br /> <span className="create">Let's create something amazing together!</span>
+        I&apos;m Marie-Grace, a tech-loving software engineer who is passionate about coding,
+        problem-solving, and collaborating with global peers to build innovative solutions.
+        I strongly believe in lifelong learning that&apos;s why I&apos;m always excited about
+        learning new things and improving myself.
+        Feel free to explore my portfolio to see my work and experience.
+        If you like what you see and have a project in mind, don&apos;t hesitate to
+        {' '}
+        <a href="#contact" className="reach">reach out.</a>
+        {' '}
+        <br />
+        {' '}
+        <span className="create">Let&apos;s create something amazing together!</span>
       </p>
-      <a href={resume} target="_blank" className="resume">Get my resume</a>
+      <a href={resume} target="_blank" className="resume" rel="noreferrer">Get my resume</a>
       <img src={programmingGif} alt="Programming GIF" />
     </div>
     <div className="lang-tools">
       <div className="part">
-        <h3>Languages and tools</h3>
+        <h3>
+          <FaCode />
+          {' '}
+          Languages and tools
+        </h3>
         <ul>
           <li>Javascript</li>
           <li>Ruby</li>
@@ -29,7 +45,10 @@ const About = () => (
         </ul>
       </div>
       <div className="part">
-        <h3>Frameworks</h3>
+        <h3>
+          <BiCodeBlock />
+          Frameworks
+        </h3>
         <ul>
           <li>React</li>
           <li>Ruby on Rails</li>
@@ -39,14 +58,17 @@ const About = () => (
         </ul>
       </div>
       <div className="part">
-        <h3>Tech and soft skills</h3>
+        <h3>
+          <HiLightBulb />
+          Tech and soft skills
+        </h3>
         <ul>
-        <li>Teamwork</li>
-        <li>Pair-programming</li>
-        <li>Creativity</li>
-        <li>Communication</li>
-        <li>Problem-solving</li>
-        <li>Adaptability</li>
+          <li>Teamwork</li>
+          <li>Pair-programming</li>
+          <li>Creativity</li>
+          <li>Communication</li>
+          <li>Problem-solving</li>
+          <li>Adaptability</li>
         </ul>
       </div>
     </div>
