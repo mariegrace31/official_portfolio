@@ -10,10 +10,12 @@
   color: var(--third-color);
   background-color: var(--main-color);
   padding: 10px;
-  margin: 20px 0 0 85px;
   width: 45%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 20px;
   border: 1px solid var(--main-color);
-  font-size: 14px;
+  font-size: 17px;
   border-radius: 6px;
 }
 
@@ -33,7 +35,6 @@
   align-items: center;
   justify-content: center;
   text-align: center;
-  border-bottom-right-radius: 100px;
 }
 
 .about-me span {
@@ -46,11 +47,11 @@
 }
 
 .presentation h1 {
-  font-size: 19px;
+  font-size: 24px;
 }
 
 .presentation p {
-  font-size: 19px;
+  font-size: 20px;
 }
 
 /* DESKETOP VERSION */

@@ -6,7 +6,9 @@
 
 .nav-bar {
   margin: 0;
-  padding: 10px;
+  position: fixed;
+  background-color: var(--third-color);
+  padding: 14px;
   display: flex;
   justify-content: space-between;
   align-items: center;
