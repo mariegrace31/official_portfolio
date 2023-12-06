@@ -1,5 +1,6 @@
 import React from 'react';
 import programmingGif from '../assets/ProgrammingGif.gif';
+import resume from '../assets/resume.pdf'
 
 const About = () => (
   <div className="about-section" id="about">
@@ -11,6 +12,7 @@ const About = () => (
         I strongly believe in lifelong learning that's why I'm always excited about learning new things and improving myself.Feel free to explore my portfolio to see my work and experience.
         If you like what you see and have a project in mind, don't hesitate to <a href="#contact" className="reach">reach out.</a> <br /> <span className="create">Let's create something amazing together!</span>
       </p>
+      <a href={resume} target="_blank" className="resume">Get my resume</a>
       <img src={programmingGif} alt="Programming GIF" />
     </div>
     <div className="lang-tools">
