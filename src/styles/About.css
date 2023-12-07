@@ -60,10 +60,6 @@
   border: 1px solid var(--third-color);
 }
 
-.gif {
-  display: none;
-}
-
 .lang-tools {
   display: flex;
   flex-direction: column;
@@ -97,6 +93,7 @@
 .part ul li {
   color: var(--third-color);
   font-size: 17px;
+  list-style-type: '>  ';
 }
 
 .skills {
@@ -104,3 +101,66 @@
 }
 
 /* Desketop version */
+
+@media screen and (min-width: 768px) {
+  .about-section h2 {
+    font-size: 30px;
+  }
+
+  .underline {
+    width: 3%;
+  }
+
+  .first-part {
+    width: 70%;
+    gap: 40px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .first-part p {
+    line-height: 45px;
+    font-size: 20px;
+    margin-top: 20px;
+  }
+
+  .create {
+    font-size: 25px;
+  }
+
+  .resume {
+    width: 15%;
+    font-size: 18px;
+    padding: 12px;
+  }
+
+  .resume:hover {
+    background-color: var(--main-color);
+    color: var(--third-color);
+  }
+
+  .lang-tools {
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .part {
+    border-radius: 12px;
+    width: 320px;
+    height: 250px;
+    margin: 0;
+  }
+
+  .part:hover {
+    box-shadow: 1px 1px 5px 2px var(--second-color);
+  }
+
+  .part h3 {
+    font-size: 22px;
+  }
+
+  .part ul li {
+    font-size: 19px;
+  }
+}
