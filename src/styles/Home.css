@@ -1,16 +1,22 @@
-.presentation a {
-  text-decoration: none;
-  border: 2px solid #f7489a;
-  color: black;
-  padding: 10px;
-  margin: 20px 0 0 85px;
-  width: 45%;
-  font-size: 14px;
-  border-radius: 6px;
+:root {
+  --main-color: #9e4fde;
+  --second-color: #e5bdfc;
+  --third-color: #fff;
+  --fourth-color: #000;
 }
 
-.presentation a:hover {
-  background-color: #f7489a;
+.presentation a {
+  text-decoration: none;
+  color: var(--third-color);
+  background-color: var(--main-color);
+  padding: 10px;
+  width: 45%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 20px;
+  border: 1px solid var(--main-color);
+  font-size: 17px;
+  border-radius: 6px;
 }
 
 .presentation {
@@ -21,7 +27,7 @@
 }
 
 .header {
-  background-color: #f8e9f0;
+  background-color: var(--third-color);
   height: 100vh;
   width: 100%;
   display: flex;
@@ -29,12 +35,11 @@
   align-items: center;
   justify-content: center;
   text-align: center;
-  border-bottom-right-radius: 100px;
 }
 
 .about-me span {
   font-weight: bold;
-  color: #f7489a;
+  color: var(--main-color);
 }
 
 .name {
@@ -42,37 +47,59 @@
 }
 
 .presentation h1 {
-  font-size: 19px;
+  font-size: 24px;
 }
 
 .presentation p {
-  font-size: 19px;
+  font-size: 20px;
+}
+
+.gif {
+  display: none;
 }
 
 /* DESKETOP VERSION */
 
 @media screen and (min-width: 768px) {
   .presentation h1 {
-    font-size: 28px;
+    font-size: 40px;
+  }
+
+  .header {
+    flex-direction: row;
+    gap: 20px;
   }
 
   .about-me span {
-    font-size: 25px;
+    font-size: 30px;
   }
 
   .presentation p {
-    font-size: 25px;
+    font-size: 30px;
   }
 
   .presentation {
-    gap: 15px;
+    gap: 18px;
   }
 
   .presentation a {
     padding: 14px;
     margin-left: auto;
     margin-right: auto;
-    width: 12%;
-    font-size: 17px;
+    width: 20%;
+    font-size: 23px;
+  }
+
+  .presentation a:hover {
+    background-color: var(--third-color);
+    border: 1px solid var(--main-color);
+    color: var(--main-color);
+  }
+
+  .gif {
+    display: flex;
+    margin: 20px;
+    width: 550px;
+    height: 670px;
   }
 }
