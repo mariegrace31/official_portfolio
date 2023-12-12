@@ -61,7 +61,7 @@ const Projects = () => {
       description: 'Budget Buddy is a web application where you can manage your budget; You have a list of transactions associated with a category, so that you can see how much money you spent and on what.',
       liveDemo: 'https://mathmagiciens.netlify.app/calculator',
       githubLink: 'https://github.com/mariegrace31/math_magicians',
-    }
+    },
   ];
   <div className="projects-container" id="projects">
     <h2>PROJECTS</h2>
