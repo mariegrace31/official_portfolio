@@ -14,7 +14,7 @@ const Projects = () => {
       tech: ['Ruby on Rails', 'postgreSQL', 'Tailwind'],
       image: budgetBuddy,
       description: 'Budget Buddy is a web application where you can manage your budget; You have a list of transactions associated with a category, so that you can see how much money you spent and on what.',
-      liveDemo: 'https://budgetbuddy31-f5f6aae993d8.herokuapp.com/',
+      liveDemo: 'https://budgetbuddy239.onrender.com/',
       githubLink: 'https://github.com/mariegrace31/budgetBuddy',
     },
     {
@@ -63,10 +63,19 @@ const Projects = () => {
       githubLink: 'https://github.com/mariegrace31/math_magicians',
     },
   ];
-  <div className="projects-container" id="projects">
+  <div className="container" id="projects">
     <h2>PROJECTS</h2>
-    <div> </div>
     <hr className="underline"/>
+    <div className="project-container">
+      <div className="Project">
+        <h4>{project.title}</h4>
+        <img src={project.image} alt={project.title}></img>
+        <ul>
+          <li>{project.tech}</li>
+        </ul>
+        <button type="submit" className="see-project">See this project</button>
+      </div>
+    </div>
   </div>
 }
 
