@@ -92,7 +92,6 @@ const Projects = () => {
           </div>
         ))}
       </div>
-
       {modal && selectedProject && (
         <div className="modal">
           <button type="button" onClick={() => toggleModal(null)}>
