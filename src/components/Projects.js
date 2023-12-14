@@ -1,9 +1,10 @@
-import React from "react";
+import React, { useState } from 'react';
+import { FaRegWindowClose, FaExternalLinkAlt, FaGithub } from 'react-icons/fa';
 import bookstore from '../assets/bookstore.JPG';
 import mealGallery from '../assets/mealGallery screeshot.png';
 import calculator from '../assets/Capture2.JPG';
 import airPollution from '../assets/Capture1.JPG';
-import budgetBuddy from '../assets/BuggetBuddy.JPG';
+import budgetBuddy from '../assets/budgetBuddy.JPG';
 import toDo from '../assets/to-do.JPG';
 
 const Projects = () => {
@@ -63,20 +64,62 @@ const Projects = () => {
       githubLink: 'https://github.com/mariegrace31/math_magicians',
     },
   ];
-  <div className="container" id="projects">
-    <h2>PROJECTS</h2>
-    <hr className="underline"/>
-    <div className="project-container">
-      <div className="Project">
-        <h4>{project.title}</h4>
-        <img src={project.image} alt={project.title}></img>
-        <ul>
-          <li>{project.tech}</li>
-        </ul>
-        <button type="submit" className="see-project">See this project</button>
+
+  const [modal, setModal] = useState(false);
+  const [selectedProject, setSelectedProject] = useState(null);
+  const toggleModal = () => {
+    setModal(!modal);
+    setSelectedProject(project);
+  };
+
+  return (
+    <div className="container" id="projects">
+      <h2>PROJECTS</h2>
+      <hr className="underline" />
+      <div className="project-container">
+        {project.map((projectItem) => (
+          <div className="Project" key={projectItem.id}>
+            <h4>{projectItem.title}</h4>
+            <img src={projectItem.image} alt={projectItem.title} />
+            <ul>
+              {projectItem.tech.map((techItem) => (
+                <li key={techItem.id}>{techItem}</li>
+              ))}
+            </ul>
+            <button onClick={toggleModal} type="button" className="see-project">
+              See this project
+            </button>
+          </div>
+        ))}
       </div>
+
+      {modal && selectedProject && (
+        <div className="modal">
+          <button type="button" onClick={() => toggleModal(null)}>
+            <FaRegWindowClose className="CloseModal" />
+          </button>
+          <img src={selectedProject.image} alt={selectedProject.title} />
+          <h4>{selectedProject.title}</h4>
+          {selectedProject && selectedProject.tech && selectedProject.tech.length > 0 && (
+          <ul>
+            {selectedProject.tech.map((techItem, index) => (
+            <li key={index}>{techItem}</li>
+            ))}
+            </ul>
+            )}
+          <p>{selectedProject.description}</p>
+          <a href={selectedProject.liveDemo}>
+            Live demo
+            <FaExternalLinkAlt className="livedemo" />
+          </a>
+          <a href={selectedProject.githubLink}>
+            Source
+            <FaGithub className="Github" />
+          </a>
+        </div>
+      )}
     </div>
-  </div>
-}
+  );
+};
 
 export default Projects;
