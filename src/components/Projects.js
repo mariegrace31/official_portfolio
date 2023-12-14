@@ -6,6 +6,7 @@ import calculator from '../assets/Capture2.JPG';
 import airPollution from '../assets/Capture1.JPG';
 import budgetBuddy from '../assets/budgetBuddy.JPG';
 import toDo from '../assets/to-do.JPG';
+import toDo from'../assets/to-do.JPG';
 
 const Projects = () => {
   const project = [
