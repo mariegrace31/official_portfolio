@@ -8,7 +8,7 @@ import budgetBuddy from '../assets/budgetBuddy.JPG';
 import toDo from '../assets/to-do.JPG';
 
 const Projects = () => {
-  const project = [
+  const projectData = [
     {
       id: 1,
       title: 'Budget Buddy',
@@ -67,7 +67,8 @@ const Projects = () => {
 
   const [modal, setModal] = useState(false);
   const [selectedProject, setSelectedProject] = useState(null);
-  const toggleModal = () => {
+
+  const toggleModal = (project) => {
     setModal(!modal);
     setSelectedProject(project);
   };
@@ -77,16 +78,16 @@ const Projects = () => {
       <h2>PROJECTS</h2>
       <hr className="underline" />
       <div className="project-container">
-        {project.map((projectItem) => (
+        {projectData.map((projectItem) => (
           <div className="Project" key={projectItem.id}>
             <h4>{projectItem.title}</h4>
             <img src={projectItem.image} alt={projectItem.title} />
             <ul>
-              {projectItem.tech.map((techItem) => (
-                <li key={techItem.id}>{techItem}</li>
+              {projectItem.tech.map((tech) => (
+                <li key={tech}>{tech}</li>
               ))}
             </ul>
-            <button onClick={toggleModal} type="button" className="see-project">
+            <button onClick={() => toggleModal(projectItem)} type="button" className="see-project">
               See this project
             </button>
           </div>
@@ -100,19 +101,17 @@ const Projects = () => {
           </button>
           <img src={selectedProject.image} alt={selectedProject.title} />
           <h4>{selectedProject.title}</h4>
-          {selectedProject && selectedProject.tech && selectedProject.tech.length > 0 && (
           <ul>
-            {selectedProject.tech.map((techItem) => (
-              <li key={techItem.id}>{techItem}</li>
+            {selectedProject.tech.map((tech) => (
+              <li key={tech}>{tech}</li>
             ))}
           </ul>
-          )}
           <p>{selectedProject.description}</p>
-          <a href={selectedProject.liveDemo}>
+          <a href={selectedProject.liveDemo} target="_blank" rel="noopener noreferrer">
             Live demo
             <FaExternalLinkAlt className="livedemo" />
           </a>
-          <a href={selectedProject.githubLink}>
+          <a href={selectedProject.githubLink} target="_blank" rel="noopener noreferrer">
             Source
             <FaGithub className="Github" />
           </a>
