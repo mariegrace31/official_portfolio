@@ -102,11 +102,11 @@ const Projects = () => {
           <h4>{selectedProject.title}</h4>
           {selectedProject && selectedProject.tech && selectedProject.tech.length > 0 && (
           <ul>
-            {selectedProject.tech.map((techItem, index) => (
-            <li key={index}>{techItem}</li>
+            {selectedProject.tech.map((techItem) => (
+              <li key={techItem.id}>{techItem}</li>
             ))}
-            </ul>
-            )}
+          </ul>
+          )}
           <p>{selectedProject.description}</p>
           <a href={selectedProject.liveDemo}>
             Live demo
