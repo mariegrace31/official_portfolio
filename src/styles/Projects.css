@@ -79,8 +79,9 @@
   width: 350px;
   height: 550px;
   border-radius: 15px;
-  margin-top: 60px;
-  margin-left: 13px;
+  margin-top: 75px;
+  margin-left: auto;
+  margin-right: auto;
   text-align: center;
 }
 
@@ -158,11 +159,13 @@
 
 /* Tablet */
 
-@media only screen and (min-width: 600px) and (max-width: 1200px) {
+@media (min-width: 768px) {
   .project-container {
     margin-top: 25px;
+    column-gap: 15px;
     display: grid;
     grid-template-columns: repeat(2, 1fr);
+    width: 100%;
   }
 
   .container h2 {
@@ -170,11 +173,11 @@
   }
 
   .Project {
-    width: 380px;
+    width: 90%;
   }
 
   .project-img {
-    width: 378px;
+    width: 100%;
   }
 
   .Project h4 {
@@ -193,9 +196,10 @@
 
   .modal {
     width: 750px;
-    margin-left: 80px;
+    margin-left: auto;
+    margin-right: auto;
     height: 620px;
-    margin-top: 45px;
+    margin-top: 65px;
   }
 
   .modal img {
@@ -212,17 +216,21 @@
   }
 
   .modal p {
-    font-size: 18px;
+    font-size: 20px;
   }
 
   .modal a {
     font-size: 16px;
   }
+
+  .modal ul li {
+    font-size: 14px;
+  }
 }
 
 /* DESKTOP */
 
-@media only screen and (min-width: 1200px) {
+@media (min-width: 992px) {
   .project-container {
     margin-top: 25px;
     display: grid;
