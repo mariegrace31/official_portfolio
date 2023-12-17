@@ -65,12 +65,14 @@ const Projects = () => {
     },
   ];
 
-  const [modal, setModal] = useState(false);
   const [selectedProject, setSelectedProject] = useState(null);
 
-  const toggleModal = (project) => {
-    setModal(!modal);
+  const openModal = (project) => {
     setSelectedProject(project);
+  };
+
+  const closeModal = () => {
+    setSelectedProject(null);
   };
 
   return (
@@ -87,16 +89,16 @@ const Projects = () => {
                 <li key={tech}>{tech}</li>
               ))}
             </ul>
-            <button onClick={() => toggleModal(projectItem)} type="button" className="see-project">
+            <button onClick={() => openModal(projectItem)} type="button" className="see-project">
               See this project
             </button>
           </div>
         ))}
       </div>
 
-      {modal && selectedProject && (
+      {selectedProject && (
         <div className="modal">
-          <button type="button" onClick={() => toggleModal(null)}>
+          <button type="button" onClick={closeModal}>
             <FaRegWindowClose className="CloseModal" />
           </button>
           <img src={selectedProject.image} alt={selectedProject.title} />
