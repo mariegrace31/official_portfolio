@@ -6,6 +6,7 @@ import calculator from '../assets/Capture2.JPG';
 import airPollution from '../assets/Capture1.JPG';
 import budgetBuddy from '../assets/budgetBuddy.JPG';
 import toDo from '../assets/to-do.JPG';
+import '../styles/Projects.css';
 
 const Projects = () => {
   const projectData = [
@@ -82,8 +83,8 @@ const Projects = () => {
       <div className="project-container">
         {projectData.map((projectItem) => (
           <div className="Project" key={projectItem.id}>
+            <img className="project-img" src={projectItem.image} alt={projectItem.title} />
             <h4>{projectItem.title}</h4>
-            <img src={projectItem.image} alt={projectItem.title} />
             <ul>
               {projectItem.tech.map((tech) => (
                 <li key={tech}>{tech}</li>

@@ -1,0 +1,69 @@
+:root {
+  --main-color: #9e4fde;
+  --second-color: #e5bdfc;
+  --third-color: #fff;
+  --fourth-color: #000;
+}
+
+.container {
+  margin: 10px;
+  background-color: var(--third-color);
+}
+
+.container h2 {
+  font-size: 16px;
+  text-align: center;
+  margin: 4px;
+}
+
+.project-container {
+  text-align: center;
+}
+
+.Project {
+  border: 1px solid rgb(182, 181, 181);
+  padding: 0;
+  margin: 15px;
+  width: 301px;
+  height: 350px;
+  border-radius: 10px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.Project h4 {
+  font-size: 19px;
+  margin: 8px;
+}
+
+.project-img {
+  width: 298px;
+  height: 200px;
+  border-radius: 10px;
+}
+
+.Project ul {
+  display: flex;
+  gap: 10px;
+  margin: 8px;
+  list-style: none;
+  text-align: center;
+  justify-content: center;
+}
+
+.Project ul li {
+  background-color: #ecd5fa;
+  padding: 5px;
+  font-size: 12px;
+  border-radius: 5px;
+}
+
+.see-project {
+  padding: 10px;
+  background-color: var(--main-color);
+  border: var(--main-color);
+  border-radius: 5px;
+  font-size: 14px;
+  margin: 10px;
+  color: var(--third-color);
+}
