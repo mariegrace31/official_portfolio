@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
-import { FaRegWindowClose, FaExternalLinkAlt, FaGithub } from 'react-icons/fa';
+import { FaExternalLinkAlt, FaGithub } from 'react-icons/fa';
+import { IoClose } from 'react-icons/io5';
 import bookstore from '../assets/bookstore.JPG';
 import mealGallery from '../assets/mealGallery screeshot.png';
 import calculator from '../assets/Capture2.JPG';
@@ -60,7 +61,7 @@ const Projects = () => {
       title: 'Math magicians',
       tech: ['React', 'HTML', 'CSS'],
       image: calculator,
-      description: 'Budget Buddy is a web application where you can manage your budget; You have a list of transactions associated with a category, so that you can see how much money you spent and on what.',
+      description: 'Math Magicians is a website for all fans of mathematics. It is a Single Page App (SPA) that allows users to make simple calculations and read a random math-related quote.',
       liveDemo: 'https://mathmagiciens.netlify.app/calculator',
       githubLink: 'https://github.com/mariegrace31/math_magicians',
     },
@@ -98,26 +99,28 @@ const Projects = () => {
       </div>
 
       {selectedProject && (
-        <div className="modal">
-          <button type="button" onClick={closeModal}>
-            <FaRegWindowClose className="CloseModal" />
-          </button>
-          <img src={selectedProject.image} alt={selectedProject.title} />
-          <h4>{selectedProject.title}</h4>
-          <ul>
-            {selectedProject.tech.map((tech) => (
-              <li key={tech}>{tech}</li>
-            ))}
-          </ul>
-          <p>{selectedProject.description}</p>
-          <a href={selectedProject.liveDemo} target="_blank" rel="noopener noreferrer">
-            Live demo
-            <FaExternalLinkAlt className="livedemo" />
-          </a>
-          <a href={selectedProject.githubLink} target="_blank" rel="noopener noreferrer">
-            Source
-            <FaGithub className="Github" />
-          </a>
+        <div className="overlay">
+          <div className="modal">
+            <button type="button" onClick={closeModal}>
+              <IoClose className="CloseModal" />
+            </button>
+            <img src={selectedProject.image} alt={selectedProject.title} />
+            <h4>{selectedProject.title}</h4>
+            <ul>
+              {selectedProject.tech.map((tech) => (
+                <li key={tech}>{tech}</li>
+              ))}
+            </ul>
+            <p>{selectedProject.description}</p>
+            <a href={selectedProject.liveDemo} target="_blank" rel="noopener noreferrer">
+              Live demo
+              <FaExternalLinkAlt className="icon" />
+            </a>
+            <a href={selectedProject.githubLink} target="_blank" rel="noopener noreferrer">
+              Source
+              <FaGithub className="icon" />
+            </a>
+          </div>
         </div>
       )}
     </div>

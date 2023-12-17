@@ -44,7 +44,7 @@
 
 .Project ul {
   display: flex;
-  gap: 10px;
+  gap: 12px;
   margin: 8px;
   list-style: none;
   text-align: center;
@@ -66,4 +66,89 @@
   font-size: 14px;
   margin: 10px;
   color: var(--third-color);
+}
+
+/* MODAL */
+
+.modal {
+  border: #ecd5fa;
+  background-color: #f0e3f8;
+  width: 350px;
+  height: 550px;
+  border-radius: 15px;
+  margin-top: 60px;
+  margin-left: 13px;
+  text-align: center;
+}
+
+.overlay {
+  backdrop-filter: blur(5px);
+  height: 100vh;
+  position: fixed;
+  z-index: 3;
+  top: 0%;
+  left: 0%;
+  width: 100%;
+}
+
+.modal img {
+  width: 349px;
+  height: 190px;
+  border-radius: 15px;
+}
+
+.modal button {
+  margin: 10px 10px 10px 300px;
+  padding: 6px;
+  border: var(--fourth-color);
+  border-radius: 12%;
+  background-color: var(--fourth-color);
+}
+
+.CloseModal {
+  color: var(--third-color);
+  font-size: 19px;
+}
+
+.modal h4 {
+  font-size: 19px;
+  margin: 8px;
+}
+
+.modal ul {
+  display: flex;
+  gap: 10px;
+  margin: 8px;
+  list-style: none;
+  text-align: center;
+  justify-content: center;
+}
+
+.modal ul li {
+  background-color: #c0bfbf;
+  padding: 7px;
+  font-size: 14px;
+  border-radius: 5px;
+}
+
+.modal p {
+  line-height: 25px;
+  padding: 5px;
+  font-size: 16px;
+  margin: 12px 12px 22px 12px;
+}
+
+.modal a {
+  background-color: var(--main-color);
+  color: var(--third-color);
+  padding: 10px;
+  margin: 10px;
+  text-decoration: none;
+  font-size: 15px;
+  align-items: center;
+  border-radius: 8px;
+}
+
+.icon {
+  margin: 2px 0 -2px 5px;
 }
