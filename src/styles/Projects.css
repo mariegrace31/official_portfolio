@@ -40,6 +40,8 @@
   width: 298px;
   height: 200px;
   border-radius: 10px;
+  border-bottom-left-radius: 0;
+  border-bottom-right-radius: 0;
 }
 
 .Project ul {
@@ -151,4 +153,68 @@
 
 .icon {
   margin: 2px 0 -2px 5px;
+}
+
+/* Tablet */
+
+@media only screen and (min-width: 600px) and (max-width: 1200px) {
+  .project-container {
+    margin-top: 25px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .container h2 {
+    font-size: 20px;
+  }
+
+  .Project {
+    width: 380px;
+  }
+
+  .project-img {
+    width: 378px;
+  }
+
+  .Project h4 {
+    font-size: 21px;
+  }
+
+  .Project ul li {
+    font-size: 13px;
+  }
+
+  .see-project {
+    font-size: 15px;
+  }
+
+  /* Modal */
+
+  .modal {
+    width: 750px;
+    margin-left: 80px;
+    height: 620px;
+    margin-top: 45px;
+  }
+
+  .modal img {
+    width: 748px;
+    height: 300px;
+  }
+
+  .modal button {
+    margin: 10px 10px 10px 680px;
+  }
+
+  .modal h4 {
+    font-size: 23px;
+  }
+
+  .modal p {
+    font-size: 18px;
+  }
+
+  .modal a {
+    font-size: 16px;
+  }
 }
