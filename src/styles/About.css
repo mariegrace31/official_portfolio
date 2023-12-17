@@ -104,6 +104,10 @@
 /* Desketop version */
 
 @media screen and (min-width: 768px) {
+  .about-section {
+    height: 790px;
+  }
+
   .about-section h2 {
     font-size: 30px;
   }

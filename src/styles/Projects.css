@@ -26,6 +26,7 @@
   margin: 15px;
   width: 301px;
   height: 350px;
+  background-color: var(--third-color);
   border-radius: 10px;
   margin-left: auto;
   margin-right: auto;
@@ -216,5 +217,110 @@
 
   .modal a {
     font-size: 16px;
+  }
+}
+
+/* DESKTOP */
+
+@media only screen and (min-width: 1200px) {
+  .project-container {
+    margin-top: 25px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+  }
+
+  .container h2 {
+    font-size: 23px;
+  }
+
+  .Project {
+    width: 450px;
+    margin: 23px;
+    transition: all 0.5s ease-in-out;
+  }
+
+  .Project:hover {
+    background-color: rgba(151, 93, 151, 0.6);
+  }
+
+  .project-img {
+    width: 448px;
+  }
+
+  .Project h4 {
+    font-size: 22px;
+  }
+
+  .Project ul li {
+    font-size: 15px;
+  }
+
+  .modal ul li {
+    font-size: 16px;
+    margin: 4px;
+  }
+
+  .Project ul li:hover {
+    cursor: default;
+  }
+
+  .see-project {
+    font-size: 17px;
+  }
+
+  .see-project:hover {
+    background-color: var(--third-color);
+    color: var(--fourth-color);
+    cursor: pointer;
+    border: 1px solid var(--main-color);
+  }
+
+  /* Modal */
+
+  .modal {
+    width: 950px;
+    margin-left: auto;
+    margin-right: auto;
+    height: 720px;
+    margin-top: 25px;
+  }
+
+  .overlay {
+    backdrop-filter: blur(10px);
+  }
+
+  .modal img {
+    width: 948px;
+    height: 350px;
+  }
+
+  .modal button {
+    margin: 10px 10px 10px 890px;
+    padding: 8px;
+  }
+
+  .CloseModal {
+    font-size: 25px;
+  }
+
+  .modal h4 {
+    font-size: 25px;
+  }
+
+  .modal p {
+    font-size: 19px;
+    margin: 15px 35px 35px 35px;
+  }
+
+  .modal a {
+    font-size: 18px;
+    font-weight: bold;
+    border: 1px solid var(--main-color);
+  }
+
+  .modal a:hover {
+    background-color: var(--third-color);
+    color: var(--main-color);
+    border: 1px solid var(--main-color);
   }
 }
