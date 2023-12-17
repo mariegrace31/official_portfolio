@@ -1,0 +1,334 @@
+:root {
+  --main-color: #9e4fde;
+  --second-color: #e5bdfc;
+  --third-color: #fff;
+  --fourth-color: #000;
+}
+
+.container {
+  margin: 10px;
+  background-color: var(--third-color);
+}
+
+.container h2 {
+  font-size: 16px;
+  text-align: center;
+  margin: 4px;
+}
+
+.project-container {
+  text-align: center;
+}
+
+.Project {
+  border: 1px solid rgb(182, 181, 181);
+  padding: 0;
+  margin: 15px;
+  width: 301px;
+  height: 350px;
+  background-color: var(--third-color);
+  border-radius: 10px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.Project h4 {
+  font-size: 19px;
+  margin: 8px;
+}
+
+.project-img {
+  width: 298px;
+  height: 200px;
+  border-radius: 10px;
+  border-bottom-left-radius: 0;
+  border-bottom-right-radius: 0;
+}
+
+.Project ul {
+  display: flex;
+  gap: 12px;
+  margin: 8px;
+  list-style: none;
+  text-align: center;
+  justify-content: center;
+}
+
+.Project ul li {
+  background-color: #ecd5fa;
+  padding: 5px;
+  font-size: 12px;
+  border-radius: 5px;
+}
+
+.see-project {
+  padding: 10px;
+  background-color: var(--main-color);
+  border: var(--main-color);
+  border-radius: 5px;
+  font-size: 14px;
+  margin: 10px;
+  color: var(--third-color);
+}
+
+/* MODAL */
+
+.modal {
+  border: #ecd5fa;
+  background-color: #f0e3f8;
+  width: 350px;
+  height: 550px;
+  border-radius: 15px;
+  margin-top: 75px;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+}
+
+.overlay {
+  backdrop-filter: blur(5px);
+  height: 100vh;
+  position: fixed;
+  z-index: 3;
+  top: 0%;
+  left: 0%;
+  width: 100%;
+}
+
+.modal img {
+  width: 349px;
+  height: 190px;
+  border-radius: 15px;
+}
+
+.modal button {
+  margin: 10px 10px 10px 300px;
+  padding: 6px;
+  border: var(--fourth-color);
+  border-radius: 12%;
+  background-color: var(--fourth-color);
+}
+
+.CloseModal {
+  color: var(--third-color);
+  font-size: 19px;
+}
+
+.modal h4 {
+  font-size: 19px;
+  margin: 8px;
+}
+
+.modal ul {
+  display: flex;
+  gap: 10px;
+  margin: 8px;
+  list-style: none;
+  text-align: center;
+  justify-content: center;
+}
+
+.modal ul li {
+  background-color: #c0bfbf;
+  padding: 7px;
+  font-size: 14px;
+  border-radius: 5px;
+}
+
+.modal p {
+  line-height: 25px;
+  padding: 5px;
+  font-size: 16px;
+  margin: 12px 12px 22px 12px;
+}
+
+.modal a {
+  background-color: var(--main-color);
+  color: var(--third-color);
+  padding: 10px;
+  margin: 10px;
+  text-decoration: none;
+  font-size: 15px;
+  align-items: center;
+  border-radius: 8px;
+}
+
+.icon {
+  margin: 2px 0 -2px 5px;
+}
+
+/* Tablet */
+
+@media (min-width: 768px) {
+  .project-container {
+    margin-top: 25px;
+    column-gap: 15px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    width: 100%;
+  }
+
+  .container h2 {
+    font-size: 20px;
+  }
+
+  .Project {
+    width: 90%;
+  }
+
+  .project-img {
+    width: 100%;
+  }
+
+  .Project h4 {
+    font-size: 21px;
+  }
+
+  .Project ul li {
+    font-size: 13px;
+  }
+
+  .see-project {
+    font-size: 15px;
+  }
+
+  /* Modal */
+
+  .modal {
+    width: 750px;
+    margin-left: auto;
+    margin-right: auto;
+    height: 620px;
+    margin-top: 65px;
+  }
+
+  .modal img {
+    width: 748px;
+    height: 300px;
+  }
+
+  .modal button {
+    margin: 10px 10px 10px 680px;
+  }
+
+  .modal h4 {
+    font-size: 23px;
+  }
+
+  .modal p {
+    font-size: 20px;
+  }
+
+  .modal a {
+    font-size: 16px;
+  }
+
+  .modal ul li {
+    font-size: 14px;
+  }
+}
+
+/* DESKTOP */
+
+@media (min-width: 992px) {
+  .project-container {
+    margin-top: 25px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+  }
+
+  .container h2 {
+    font-size: 23px;
+  }
+
+  .Project {
+    width: 450px;
+    margin: 23px;
+    transition: all 0.5s ease-in-out;
+  }
+
+  .Project:hover {
+    background-color: rgba(151, 93, 151, 0.6);
+  }
+
+  .project-img {
+    width: 448px;
+  }
+
+  .Project h4 {
+    font-size: 22px;
+  }
+
+  .Project ul li {
+    font-size: 15px;
+  }
+
+  .modal ul li {
+    font-size: 16px;
+    margin: 4px;
+  }
+
+  .Project ul li:hover {
+    cursor: default;
+  }
+
+  .see-project {
+    font-size: 17px;
+  }
+
+  .see-project:hover {
+    background-color: var(--third-color);
+    color: var(--fourth-color);
+    cursor: pointer;
+    border: 1px solid var(--main-color);
+  }
+
+  /* Modal */
+
+  .modal {
+    width: 950px;
+    margin-left: auto;
+    margin-right: auto;
+    height: 720px;
+    margin-top: 25px;
+  }
+
+  .overlay {
+    backdrop-filter: blur(10px);
+  }
+
+  .modal img {
+    width: 948px;
+    height: 350px;
+  }
+
+  .modal button {
+    margin: 10px 10px 10px 890px;
+    padding: 8px;
+  }
+
+  .CloseModal {
+    font-size: 25px;
+  }
+
+  .modal h4 {
+    font-size: 25px;
+  }
+
+  .modal p {
+    font-size: 19px;
+    margin: 15px 35px 35px 35px;
+  }
+
+  .modal a {
+    font-size: 18px;
+    font-weight: bold;
+    border: 1px solid var(--main-color);
+  }
+
+  .modal a:hover {
+    background-color: var(--third-color);
+    color: var(--main-color);
+    border: 1px solid var(--main-color);
+  }
+}

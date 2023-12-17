@@ -14,6 +14,7 @@
   color: var(--third-color);
   margin: 5px;
   text-align: center;
+  font-size: 18px;
 }
 
 .underline {
@@ -103,6 +104,10 @@
 /* Desketop version */
 
 @media screen and (min-width: 768px) {
+  .about-section {
+    height: 790px;
+  }
+
   .about-section h2 {
     font-size: 30px;
   }

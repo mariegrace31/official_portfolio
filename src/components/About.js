@@ -7,7 +7,7 @@ import '../styles/About.css';
 
 const About = () => (
   <div className="about-section" id="about">
-    <h2>About</h2>
+    <h2>ABOUT</h2>
     <hr className="underline" />
     <div className="first-part">
       <p>
