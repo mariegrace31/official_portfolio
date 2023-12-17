@@ -101,7 +101,7 @@ const Projects = () => {
       {selectedProject && (
         <div className="overlay">
           <div className="modal">
-            <button type="button" onClick={closeModal}>
+            <button type="button" onClick={closeModal} aria-label="Close Modal">
               <IoClose className="CloseModal" />
             </button>
             <img src={selectedProject.image} alt={selectedProject.title} />
