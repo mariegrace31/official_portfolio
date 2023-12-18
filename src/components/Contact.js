@@ -46,44 +46,44 @@ const Contact = () => {
         I can&apos;t wait to hear from you!
       </p>
       <div className="social-media">
-        <a href="https://www.linkedin.com/in/marie-gr%C3%A2ce-bahati/" aria-label="linkedin"><FaLinkedin /></a>
-        <a href="https://github.com/mariegrace31" aria-label="github"><RiGithubFill /></a>
-        <a href="https://twitter.com/mariegracebmg" aria-label="twitter"><FaXTwitter /></a>
-        <a href="https://wellfound.com/u/bahati-marie-grace" aria-label="wellfound"><SiWellfound /></a>
+        <a className="contact-icon" href="https://www.linkedin.com/in/marie-gr%C3%A2ce-bahati/" aria-label="linkedin"><FaLinkedin /></a>
+        <a className="contact-icon" href="https://github.com/mariegrace31" aria-label="github"><RiGithubFill /></a>
+        <a className="contact-icon" href="https://twitter.com/mariegracebmg" aria-label="twitter"><FaXTwitter /></a>
+        <a className="contact-icon" href="https://wellfound.com/u/bahati-marie-grace" aria-label="wellfound"><SiWellfound /></a>
       </div>
       <div className="form-container">
         <form onSubmit={onSubmit} className="contact-form">
-          <div>
+          <div className="form-cont">
             <label htmlFor="fullname">
-              Fullname
+              Full name:
               <input
                 id="fullname"
                 type="text"
                 name="fullname"
-                placeholder="Enter your fullname"
+                placeholder="Enter your full name"
                 value={formData.fullname}
                 onChange={(e) => setFormData({ ...formData, fullname: e.target.value })}
                 required
               />
             </label>
           </div>
-          <div>
+          <div className="form-cont">
             <label htmlFor="email">
-              Email adress
+              Email adress:
               <input
                 id="email"
                 type="email"
                 name="email"
-                placeholder="Enter you email adress"
+                placeholder="Enter your email adress"
                 value={formData.email}
                 onChange={(e) => setFormData({ ...formData, email: e.target.value })}
                 required
               />
             </label>
           </div>
-          <div>
+          <div className="form-cont">
             <label htmlFor="message">
-              Message
+              Message:
               <textarea
                 id="message"
                 name="message"
