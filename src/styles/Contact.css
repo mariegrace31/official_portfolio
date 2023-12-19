@@ -7,9 +7,8 @@
 
 .contact {
   background-color: var(--fourth-color);
-  padding: 8px;
+  padding: 8px 8px 50px 8px;
   margin-top: 50px;
-  margin-bottom: 50px;
   border-top-left-radius: 40px;
 }
 
@@ -121,4 +120,43 @@ textarea:focus {
   color: var(--fourth-color);
   font-size: 14px;
   line-height: 25px;
+}
+
+/* Tablet */
+
+@media (min-width: 768px) {
+  .contact {
+    border-top-left-radius: 60px;
+  }
+
+  .contact h2 {
+    font-size: 22px;
+  }
+
+  .contact p {
+    font-size: 18px;
+    width: 83%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  label {
+    font-size: 17px;
+  }
+
+  input {
+    height: 43px;
+  }
+
+  textarea {
+    height: 95px;
+  }
+
+  .submit-btn {
+    font-size: 15px;
+  }
+
+  .submission-message h4 {
+    font-size: 18px;
+  }
 }
