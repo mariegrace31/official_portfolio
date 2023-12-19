@@ -3,17 +3,18 @@ import { FaLinkedin } from 'react-icons/fa';
 import { RiGithubFill } from 'react-icons/ri';
 import { FaXTwitter } from 'react-icons/fa6';
 import { SiWellfound } from 'react-icons/si';
+import '../styles/Footer.css';
 
 const Footer = () => {
-  <div className="footer">
+  <footer className="footer">
     <p>&copy; 2023 Marie-Grace Bahati. All rights reserved.</p>
-    <div className="social-media">
-      <a className="contact-icon" href="https://www.linkedin.com/in/marie-gr%C3%A2ce-bahati/" aria-label="linkedin"><FaLinkedin /></a>
-      <a className="contact-icon" href="https://github.com/mariegrace31" aria-label="github"><RiGithubFill /></a>
-      <a className="contact-icon" href="https://twitter.com/mariegracebmg" aria-label="twitter"><FaXTwitter /></a>
-      <a className="contact-icon" href="https://wellfound.com/u/bahati-marie-grace" aria-label="wellfound"><SiWellfound /></a>
+    <div className="socials">
+      <a className="footer-icon" href="https://www.linkedin.com/in/marie-gr%C3%A2ce-bahati/" target="_blank" rel="noreferrer" aria-label="linkedin"><FaLinkedin /></a>
+      <a className="footer-icon" href="https://github.com/mariegrace31" target="_blank" rel="noreferrer" aria-label="github"><RiGithubFill /></a>
+      <a className="footer-icon" href="https://twitter.com/mariegracebmg" target="_blank" rel="noreferrer" aria-label="twitter"><FaXTwitter /></a>
+      <a className="footer-icon" href="https://wellfound.com/u/bahati-marie-grace" target="_blank" rel="noreferrer" aria-label="wellfound"><SiWellfound /></a>
     </div>
-  </div>
-}
+  </footer>;
+};
 
 export default Footer;
