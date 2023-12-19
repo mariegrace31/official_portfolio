@@ -230,7 +230,7 @@
 
 /* DESKTOP */
 
-@media (min-width: 992px) {
+@media (min-width: 1300px) {
   .project-container {
     margin-top: 25px;
     display: grid;
@@ -242,8 +242,8 @@
   }
 
   .Project {
-    width: 450px;
-    margin: 23px;
+    width: 400px;
+    margin: 23px auto;
     transition: all 0.5s ease-in-out;
   }
 
@@ -252,7 +252,7 @@
   }
 
   .project-img {
-    width: 448px;
+    width: 397px;
   }
 
   .Project h4 {

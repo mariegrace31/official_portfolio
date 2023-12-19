@@ -1,0 +1,218 @@
+:root {
+  --main-color: #9e4fde;
+  --second-color: #eedafa;
+  --third-color: #fff;
+  --fourth-color: #000;
+}
+
+.contact {
+  background-color: var(--fourth-color);
+  padding: 8px 8px 50px 8px;
+  margin-top: 50px;
+  border-top-left-radius: 40px;
+}
+
+.contact h2 {
+  color: var(--third-color);
+  text-align: center;
+  font-size: 18px;
+  margin: 8px;
+}
+
+.contact p {
+  color: var(--third-color);
+  font-size: 17px;
+  padding: 9px;
+  text-align: center;
+  line-height: 25px;
+}
+
+.social-media {
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+  font-size: 20px;
+  margin: 10px;
+}
+
+.contact-icon {
+  color: #c58af5;
+}
+
+.form-container {
+  background-color: var(--second-color);
+  width: 82%;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 30px;
+  display: flex;
+  flex-direction: column;
+  padding: 10px;
+  border: 2px double var(--fourth-color);
+}
+
+label {
+  font-size: 15px;
+  margin-top: 10px;
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+}
+
+input {
+  width: 80%;
+  height: 32px;
+  border: 1px solid var(--main-color);
+  border-radius: 5px;
+  padding: 4px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+input::placeholder {
+  color: #adadad;
+}
+
+input:focus {
+  outline: none;
+  border: 2px solid var(--fourth-color);
+}
+
+textarea {
+  width: 80%;
+  height: 75px;
+  border: 1px solid var(--main-color);
+  border-radius: 5px;
+  padding: 4px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+textarea::placeholder {
+  color: #adadad;
+}
+
+textarea:focus {
+  outline: none;
+  border: 2px solid var(--fourth-color);
+}
+
+.submit-btn {
+  padding: 8px;
+  margin-top: 10px;
+  border-radius: 5px;
+  color: var(--third-color);
+  background-color: var(--fourth-color);
+  border: var(--fourth-color);
+}
+
+.submission-message {
+  margin: 10px;
+}
+
+.submission-message h4 {
+  color: var(--main-color);
+  font-size: 16px;
+}
+
+.submission-message p {
+  color: var(--fourth-color);
+  font-size: 14px;
+  line-height: 25px;
+}
+
+/* Tablet */
+
+@media (min-width: 768px) {
+  .contact {
+    border-top-left-radius: 60px;
+  }
+
+  .contact h2 {
+    font-size: 22px;
+  }
+
+  .contact p {
+    font-size: 18px;
+    width: 83%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  label {
+    font-size: 17px;
+  }
+
+  input {
+    height: 43px;
+  }
+
+  textarea {
+    height: 95px;
+  }
+
+  .submit-btn {
+    font-size: 15px;
+  }
+
+  .submission-message h4 {
+    font-size: 18px;
+  }
+}
+
+/* Desktop */
+
+@media (min-width: 1200px) {
+  .contact {
+    border-top-left-radius: 120px;
+    padding-bottom: 70px;
+  }
+
+  .contact h2 {
+    font-size: 25px;
+  }
+
+  .contact p {
+    font-size: 20px;
+    line-height: 35px;
+    width: 60%;
+  }
+
+  .form-container {
+    width: 55%;
+    padding: 20px;
+  }
+
+  label {
+    font-size: 19px;
+  }
+
+  input {
+    height: 48px;
+    border-radius: 10px;
+    width: 50%;
+  }
+
+  textarea {
+    height: 125px;
+    border-radius: 10px;
+    padding: 10px;
+    width: 50%;
+  }
+
+  .submit-btn {
+    font-size: 16px;
+    padding: 15px;
+    margin-top: 28px;
+    width: 18%;
+  }
+
+  .submission-message h4 {
+    font-size: 19px;
+  }
+
+  .submission-message p {
+    font-size: 17px;
+  }
+}

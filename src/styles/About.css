@@ -51,7 +51,7 @@
 
 .resume {
   background-color: var(--third-color);
-  width: 40%;
+  width: 46%;
   font-size: 17px;
   padding: 10px;
   text-decoration: none;
@@ -101,11 +101,49 @@
   font-size: 25px;
 }
 
+/* Tablet */
+
+@media (min-width: 768px) {
+  .underline {
+    width: 6%;
+  }
+
+  .about-section h2 {
+    font-size: 20px;
+  }
+
+  .first-part p {
+    font-size: 19px;
+    line-height: 30px;
+  }
+
+  .resume {
+    width: 20%;
+    font-size: 18px;
+  }
+
+  .create {
+    font-size: 21px;
+  }
+
+  .part {
+    width: 65%;
+  }
+
+  .part h3 {
+    font-size: 19px;
+  }
+
+  .part ul li {
+    font-size: 18px;
+  }
+}
+
 /* Desketop version */
 
-@media screen and (min-width: 768px) {
+@media screen and (min-width: 1100px) {
   .about-section {
-    height: 790px;
+    height: max-content;
   }
 
   .about-section h2 {

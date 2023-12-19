@@ -10,7 +10,7 @@
   color: var(--third-color);
   background-color: var(--main-color);
   padding: 10px;
-  width: 45%;
+  width: 47%;
   margin-left: auto;
   margin-right: auto;
   margin-top: 20px;
@@ -58,9 +58,34 @@
   display: none;
 }
 
+/* Tablet */
+
+@media (min-width: 768px) {
+  .gif {
+    display: none;
+  }
+
+  .name {
+    font-size: 23px;
+  }
+
+  .presentation h1 {
+    font-size: 26px;
+  }
+
+  .presentation p {
+    font-size: 23px;
+  }
+
+  .presentation a {
+    width: 22%;
+    font-size: 19px;
+  }
+}
+
 /* DESKETOP VERSION */
 
-@media screen and (min-width: 768px) {
+@media screen and (min-width: 1100px) {
   .presentation h1 {
     font-size: 40px;
   }
@@ -98,8 +123,8 @@
 
   .gif {
     display: flex;
-    margin: 20px;
+    margin: 23px;
     width: 550px;
-    height: 670px;
+    height: 665px;
   }
 }
