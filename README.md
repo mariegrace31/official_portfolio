@@ -1,70 +1,185 @@
-# Getting Started with Create React App
+<a name="readme-top"></a>
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+<div align="center">
+  <img src="./src/assets/womenCoding.gif" alt="logo" width="140"  height="140" />
 
-## Available Scripts
+#  **Official portfolio**
+This portfolio showcases my skills and expertise in software development. It includes a collection of some of my projects. 
 
-In the project directory, you can run:
+---
+  <br/>
+  <br/>
+  <br/>
+</div>
 
-### `npm start`
+<!-- TABLE OF CONTENTS -->
+## <b>Table of Contents 📗
+- [**Official portfolio**](#official-portfolio)
+  - [Table of Contents 📗](#table-of-contents-)
+  - [**Built With 🛠**](#built-with-)
+    - [**Key Features 🏷️** ](#key-features-️-)
+  - [Live Demo 🚀](#live-demo-)
+  - [**Prerequisites 🧱**](#prerequisites-)
+  - [**Setup ⚙️**](#setup-️)
+  - [\*\* 🏗️ Install dependencies\*\*](#-️-install-dependencies)
+  - [**Usage 📂**](#usage-)
+  - [**Authors 👤**](#authors-)
+  - [**Contributing 🤝**](#contributing-)
+  - [**Show your support 🌟**](#show-your-support-)
+  - [**Acknowledgments 🙏**](#acknowledgments-)
+  - [**FAQ ❓**](#faq-)
+  - [License 📝](#license-)
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+---
+<!-- BUILT WITH -->
+## **Built With 🛠**<a name="built-with"></a><br>
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+  <ul>
+    <li><a href="https://developer.mozilla.org/en-US/docs/Web/HTML">HTML5</a> markup to build raw structure of this web page</li><br>
+    <li><a href="https://developer.mozilla.org/en-US/docs/Web/CSS">CSS3</a> custom properties, <a href="https://css-tricks.com/snippets/css/a-guide-to-flexbox/">FlexBox</a>, <a href="https://www.w3schools.com/css/css_grid.asp">Grid</a> to make the website visually attractive</li><br>
+    <li><a href="https://reactjs.org/">Javascript</a></li><br>
+    <li><a href="https://mozilla.github.io/addons-linter/">Linters</a> for coding convention and coding formating</li>
+  </ul>
 
-### `npm test`
+<br>
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+---
+<!-- KEY FEATURES -->
+### **Key Features 🏷️** <a name="key-features"></a>
 
-### `npm run build`
+This portfolio showcases my skills and a list of some of my projects.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+<br>
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+---
+<!-- LIVE DEMO -->
+## <b>Live Demo 🚀</b><a name="live-demo"></a>
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+If you want to check the live demo of my portfolio, please click 😊 [here](https://mariegrace31.github.io/Meal_Gallery/dist/).
 
-### `npm run eject`
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+---
+<!-- PREREQUISITIES -->
+## **Prerequisites 🧱**<a name="prerequisites"></a>
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+In order to run this project you need:
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+- A Github account
+- Node JS
+- A web browser to view output e.g [Microsoft Edge](https://www.microsoft.com/en-us/edge).
+- An IDE e.g [Visual studio code](https://code.visualstudio.com/).
+- [A terminal](https://code.visualstudio.com/docs/terminal/basics).
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+<br>
 
-## Learn More
+---
+<!-- SETUP -->
+## **Setup ⚙️**<a name="setup"></a>
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+Clone this repository:<br>
+```sh
+git clone https://github.com/mariegrace31/official_portfolio.git
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+```
+Navigate to the folder
+```
+cd official_portfolio
+```
+Checkout the branch
+```
+git checkout dev
+```
+<br>
 
-### Code Splitting
+---
+<!-- INSTALL -->
+## ** 🏗️ Install dependencies**<a name="install"></a>
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+Install all dependencies by running:
 
-### Analyzing the Bundle Size
+```sh
+npm install
+```
+Run the following code to fixed possible JavaScript linter errors:
+```
+npx eslint . --fix
+```
+<br>
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+---
+<!-- USAGE -->
+## **Usage 📂**<a name="usage"></a>
+Open the page in the browser with:
+```sh
+$ npm start
+```
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+<br>
 
-### Making a Progressive Web App
+---
+<!-- AUTHORS -->
+## **Authors 👤**<a name="author"></a>
+👤 **Marie-Grace Bahati**
+- GitHub: [@mariegrace31](https://github.com/mariegrace31)
+- Twitter: [@mariegracebmg](https://twitter.com/mariegracebmg)
+- LinkedIn: [Marie Grace Bahati](https://linkedin.com/in/marie-gr%C3%A2ce-bahati-546765224)
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+<br>
 
-### Advanced Configuration
+---
+<!-- CONTRIBUTING -->
+## **Contributing 🤝**<a name="contributing"></a>
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+If you have suggestions 📝, ideas 🤔, or bug reports 🐛, please feel free to open an [issue](https://github.com/mariegrace31/official_portfolio/issues) on GitHub.
+Remember, every contribution, no matter how big or small, makes a difference.
 
-### Deployment
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+<br>
 
-### `npm run build` fails to minify
+---
+<!-- SUPPORT -->
+## **Show your support 🌟**<a name="support"></a>
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Thank you for taking the time to explore my GitHub project! Your support means a lot to me. If you find my project valuable and would like to contribute, here are a few ways you can support me:
+
+ - **Star the project ⭐️**: Show your appreciation by starring this GitHub repository. It helps increase visibility and lets others know that the project is well-received.
+
+ - **Fork the project 🍴 🎣**: If you're interested in making improvements or adding new features, feel free to fork the project. You can work on your own version and even submit pull requests to suggest changes.
+
+ - **Share with others 🗺️**: Spread the word about this project. Share it on social media, mention it in relevant forums or communities, or recommend it to colleagues and friends who might find it useful.
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+<br>
+
+---
+<!-- ACKNOWLEDGEMENTS -->
+## **Acknowledgments 🙏**<a name="acknowledgements"></a>
+
+We would like to express our sincere gratitude to [Microverse](https://github.com/microverseinc), the dedicated reviewers, and collaborators. Your unwavering support, and feedbacks have played an immense role in making this journey a resounding success. Thank you for being an integral part of our achievements.
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+---
+<!-- FAQ -->
+## **FAQ ❓**<a name="faq"></a>
+
+- **Why should we use linters?**
+
+  Because linters help you catch potential bugs and issues before they become serious problems, and encourage you to write more maintainable and readable code.
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+<br>
+
+---
+<!-- LICENCE -->
+## <b>License 📝</b><a name="license"></a>
+
+This project is [MIT](./LICENSE) licensed.
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
