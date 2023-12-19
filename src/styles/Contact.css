@@ -9,6 +9,7 @@
   background-color: var(--fourth-color);
   padding: 8px;
   margin-top: 50px;
+  margin-bottom: 50px;
   border-top-left-radius: 40px;
 }
 
@@ -105,4 +106,19 @@ textarea:focus {
   color: var(--third-color);
   background-color: var(--fourth-color);
   border: var(--fourth-color);
+}
+
+.submission-message {
+  margin: 10px;
+}
+
+.submission-message h4 {
+  color: var(--main-color);
+  font-size: 16px;
+}
+
+.submission-message p {
+  color: var(--fourth-color);
+  font-size: 14px;
+  line-height: 25px;
 }

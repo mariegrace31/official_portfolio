@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from 'react';
+import React, { useState } from 'react';
 import { useForm } from '@formspree/react';
 import { FaLinkedin } from 'react-icons/fa';
 import { RiGithubFill } from 'react-icons/ri';
@@ -19,20 +19,18 @@ const Contact = () => {
   const onSubmit = async (e) => {
     e.preventDefault();
     await handleSubmit(e);
-  };
 
-  useEffect(() => {
-    let timer;
     if (state.succeeded) {
       setSubmitted(true);
-      timer = setTimeout(() => {
-        setSubmitted(false);
+      setTimeout(() => {
         setFormData({ fullname: '', email: '', message: '' });
-      }, 5000);
-    }
+      }, 900);
 
-    return () => clearTimeout(timer);
-  }, [state.succeeded]);
+      setTimeout(() => {
+        setSubmitted(false);
+      }, 9000);
+    }
+  };
 
   return (
     <section className="contact" id="contact">
@@ -95,11 +93,11 @@ const Contact = () => {
             </label>
           </div>
           <button
-            type="button"
+            type="submit"
             disabled={state.submitting}
             className="submit-btn"
           >
-            Get in touch
+            {state.submitting ? 'Submitting...' : 'Get in touch'}
           </button>
           {submitted && (
             <div className="submission-message">
