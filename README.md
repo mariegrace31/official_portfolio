@@ -49,16 +49,19 @@ This portfolio showcases my skills and expertise in software development. It inc
 
 This portfolio showcases my skills and a list of some of my projects.
 
+**Future features**
+-Live demo link
+
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 <br>
 
 ---
-<!-- LIVE DEMO -->
+<!-- LIVE DEMO 
 ## <b>Live Demo 🚀</b><a name="live-demo"></a>
 
-If you want to check the live demo of my portfolio, please click 😊 [here](https://mariegrace31.github.io/Meal_Gallery/dist/).
+If you want to check the live demo of my portfolio, please click 😊 [here]().
 
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
+<p align="right">(<a href="#readme-top">back to top</a>)</p> -->
 
 ---
 <!-- PREREQUISITIES -->
@@ -102,7 +105,7 @@ Install all dependencies by running:
 ```sh
 npm install
 ```
-Run the following code to fixed possible JavaScript linter errors:
+Run the following code to fix possible JavaScript linter errors:
 ```
 npx eslint . --fix
 ```
@@ -133,8 +136,8 @@ $ npm start
 <!-- CONTRIBUTING -->
 ## **Contributing 🤝**<a name="contributing"></a>
 
-If you have suggestions 📝, ideas 🤔, or bug reports 🐛, please feel free to open an [issue](https://github.com/mariegrace31/official_portfolio/issues) on GitHub.
-Remember, every contribution, no matter how big or small, makes a difference.
+If you have suggestions 📝, ideas 🤔, or bug reports 🐛, please open an [issue](https://github.com/mariegrace31/official_portfolio/issues) on GitHub.
+Remember, every contribution makes a difference, no matter how big or small.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -148,7 +151,7 @@ Thank you for taking the time to explore my GitHub project! Your support means a
 
  - **Star the project ⭐️**: Show your appreciation by starring this GitHub repository. It helps increase visibility and lets others know that the project is well-received.
 
- - **Fork the project 🍴 🎣**: If you're interested in making improvements or adding new features, feel free to fork the project. You can work on your own version and even submit pull requests to suggest changes.
+ - **Fork the project 🍴 🎣**: If you're interested in making improvements or adding new features, feel free to fork the project. You can work on your version and even submit pull requests to suggest changes.
 
  - **Share with others 🗺️**: Spread the word about this project. Share it on social media, mention it in relevant forums or communities, or recommend it to colleagues and friends who might find it useful.
 
@@ -160,7 +163,7 @@ Thank you for taking the time to explore my GitHub project! Your support means a
 <!-- ACKNOWLEDGEMENTS -->
 ## **Acknowledgments 🙏**<a name="acknowledgements"></a>
 
-We would like to express our sincere gratitude to [Microverse](https://github.com/microverseinc), the dedicated reviewers, and collaborators. Your unwavering support, and feedbacks have played an immense role in making this journey a resounding success. Thank you for being an integral part of our achievements.
+We would like to express our sincere gratitude to [Microverse](https://github.com/microverseinc), the dedicated reviewers, and collaborators. Your unwavering support and feedback have played an immense role in making this journey a resounding success. Thank you for being an integral part of our achievements.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
