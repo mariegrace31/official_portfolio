@@ -160,3 +160,59 @@ textarea:focus {
     font-size: 18px;
   }
 }
+
+/* Desktop */
+
+@media (min-width: 1200px) {
+  .contact {
+    border-top-left-radius: 120px;
+    padding-bottom: 70px;
+  }
+
+  .contact h2 {
+    font-size: 25px;
+  }
+
+  .contact p {
+    font-size: 20px;
+    line-height: 35px;
+    width: 60%;
+  }
+
+  .form-container {
+    width: 55%;
+    padding: 20px;
+  }
+
+  label {
+    font-size: 19px;
+  }
+
+  input {
+    height: 48px;
+    border-radius: 10px;
+    width: 50%;
+  }
+
+  textarea {
+    height: 125px;
+    border-radius: 10px;
+    padding: 10px;
+    width: 50%;
+  }
+
+  .submit-btn {
+    font-size: 16px;
+    padding: 15px;
+    margin-top: 28px;
+    width: 18%;
+  }
+
+  .submission-message h4 {
+    font-size: 19px;
+  }
+
+  .submission-message p {
+    font-size: 17px;
+  }
+}
