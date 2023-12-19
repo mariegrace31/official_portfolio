@@ -5,7 +5,7 @@ import { FaXTwitter } from 'react-icons/fa6';
 import { SiWellfound } from 'react-icons/si';
 import '../styles/Footer.css';
 
-const Footer = () => {
+const Footer = () => (
   <footer className="footer">
     <p>&copy; 2023 Marie-Grace Bahati. All rights reserved.</p>
     <div className="socials">
@@ -14,7 +14,7 @@ const Footer = () => {
       <a className="footer-icon" href="https://twitter.com/mariegracebmg" target="_blank" rel="noreferrer" aria-label="twitter"><FaXTwitter /></a>
       <a className="footer-icon" href="https://wellfound.com/u/bahati-marie-grace" target="_blank" rel="noreferrer" aria-label="wellfound"><SiWellfound /></a>
     </div>
-  </footer>;
-};
+  </footer>
+);
 
 export default Footer;
