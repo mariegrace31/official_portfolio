@@ -62,7 +62,7 @@ const Projects = () => {
       tech: ['React', 'HTML', 'CSS'],
       image: calculator,
       description: 'Math Magicians is a website for all fans of mathematics. It is a Single Page App (SPA) that allows users to make simple calculations and read a random math-related quote.',
-      liveDemo: 'https://mathmagiciens.netlify.app/calculator',
+      liveDemo: 'https://mathmagiciens.netlify.app/',
       githubLink: 'https://github.com/mariegrace31/math_magicians',
     },
   ];
