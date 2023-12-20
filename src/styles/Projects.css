@@ -157,8 +157,6 @@
   margin: 2px 0 -2px 5px;
 }
 
-/* Tablet */
-
 @media (min-width: 768px) {
   .project-container {
     margin-top: 25px;
@@ -227,8 +225,6 @@
     font-size: 14px;
   }
 }
-
-/* DESKTOP */
 
 @media (min-width: 1300px) {
   .project-container {

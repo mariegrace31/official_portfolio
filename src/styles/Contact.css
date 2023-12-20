@@ -122,8 +122,6 @@ textarea:focus {
   line-height: 25px;
 }
 
-/* Tablet */
-
 @media (min-width: 768px) {
   .contact {
     border-top-left-radius: 60px;
@@ -160,8 +158,6 @@ textarea:focus {
     font-size: 18px;
   }
 }
-
-/* Desktop */
 
 @media (min-width: 1200px) {
   .contact {

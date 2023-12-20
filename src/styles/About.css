@@ -42,7 +42,6 @@
 
 .reach {
   color: var(--third-color);
-  cursor: pointer;
 }
 
 .create {
@@ -101,8 +100,6 @@
   font-size: 25px;
 }
 
-/* Tablet */
-
 @media (min-width: 768px) {
   .underline {
     width: 6%;
@@ -138,8 +135,6 @@
     font-size: 18px;
   }
 }
-
-/* Desketop version */
 
 @media screen and (min-width: 1100px) {
   .about-section {

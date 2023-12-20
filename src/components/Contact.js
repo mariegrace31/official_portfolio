@@ -8,6 +8,7 @@ import '../styles/Contact.css';
 
 const Contact = () => {
   const [state, handleSubmit] = useForm('moqgaeyy');
+
   const [formData, setFormData] = useState({
     fullname: '',
     email: '',
@@ -22,6 +23,7 @@ const Contact = () => {
 
     if (state.succeeded) {
       setSubmitted(true);
+
       setTimeout(() => {
         setFormData({ fullname: '', email: '', message: '' });
       }, 900);

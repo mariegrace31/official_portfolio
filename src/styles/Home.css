@@ -58,8 +58,6 @@
   display: none;
 }
 
-/* Tablet */
-
 @media (min-width: 768px) {
   .gif {
     display: none;
@@ -82,8 +80,6 @@
     font-size: 19px;
   }
 }
-
-/* DESKETOP VERSION */
 
 @media screen and (min-width: 1100px) {
   .presentation h1 {

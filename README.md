@@ -56,12 +56,12 @@ This portfolio showcases my skills and a list of some of my projects.
 <br>
 
 ---
-<!-- LIVE DEMO 
+<!-- LIVE DEMO -->
 ## <b>Live Demo 🚀</b><a name="live-demo"></a>
 
-If you want to check the live demo of my portfolio, please click 😊 [here]().
+If you want to check the live demo of my portfolio, please click 😊 [here](https://mariegrace.netlify.app/).
 
-<p align="right">(<a href="#readme-top">back to top</a>)</p> -->
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 ---
 <!-- PREREQUISITIES -->
