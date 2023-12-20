@@ -12,3 +12,17 @@ body {
   background-color: #fff;
   font-family: 'Lato', sans-serif;
 }
+
+::-webkit-scrollbar {
+  width: 15px;
+  background: #eedafa;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #ac58f0;
+  border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #8f1cee;
+}
