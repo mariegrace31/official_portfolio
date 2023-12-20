@@ -2,7 +2,7 @@ import React from 'react';
 import { FaCode } from 'react-icons/fa6';
 import { BiCodeBlock } from 'react-icons/bi';
 import { HiLightBulb } from 'react-icons/hi';
-import resume from '../assets/resume.pdf';
+import resume from '../assets/Marie_Grace_resume.pdf';
 import '../styles/About.css';
 
 const About = () => (
