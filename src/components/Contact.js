@@ -44,10 +44,10 @@ const Contact = () => {
         I can&apos;t wait to hear from you!
       </p>
       <div className="social-media">
-        <a className="contact-icon" href="https://www.linkedin.com/in/marie-gr%C3%A2ce-bahati/" aria-label="linkedin"><FaLinkedin /></a>
-        <a className="contact-icon" href="https://github.com/mariegrace31" aria-label="github"><RiGithubFill /></a>
-        <a className="contact-icon" href="https://twitter.com/mariegracebmg" aria-label="twitter"><FaXTwitter /></a>
-        <a className="contact-icon" href="https://wellfound.com/u/bahati-marie-grace" aria-label="wellfound"><SiWellfound /></a>
+        <a className="contact-icon" href="https://www.linkedin.com/in/marie-gr%C3%A2ce-bahati/" target="_blank" rel="noreferrer" aria-label="linkedin"><FaLinkedin /></a>
+        <a className="contact-icon" href="https://github.com/mariegrace31" target="_blank" rel="noreferrer" aria-label="github"><RiGithubFill /></a>
+        <a className="contact-icon" href="https://twitter.com/mariegracebmg" target="_blank" rel="noreferrer" aria-label="twitter"><FaXTwitter /></a>
+        <a className="contact-icon" href="https://wellfound.com/u/bahati-marie-grace" target="_blank" rel="noreferrer" aria-label="wellfound"><SiWellfound /></a>
       </div>
       <div className="form-container">
         <form onSubmit={onSubmit} className="contact-form">

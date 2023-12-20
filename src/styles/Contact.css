@@ -206,6 +206,19 @@ textarea:focus {
     padding: 15px;
     margin-top: 28px;
     width: 18%;
+    border: 1px solid var(--fourth-color);
+  }
+
+  .submit-btn:hover {
+    background-color: var(--third-color);
+    color: var(--fourth-color);
+    border: 1px solid var(--fourth-color);
+    cursor: pointer;
+  }
+
+  .contact-icon:hover {
+    color: var(--third-color);
+    cursor: pointer;
   }
 
   .submission-message h4 {

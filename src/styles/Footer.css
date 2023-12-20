@@ -1,0 +1,25 @@
+.footer {
+  display: flex;
+  flex-direction: column;
+  background-color: #000;
+  text-align: center;
+  justify-content: center;
+  padding: 70px 10px 10px 10px;
+  gap: 8px;
+}
+
+.footer p {
+  font-size: 13px;
+  color: #fff;
+}
+
+.socials {
+  display: flex;
+  gap: 15px;
+  justify-content: center;
+}
+
+.footer-icon {
+  color: #fff;
+  font-size: 15px;
+}
