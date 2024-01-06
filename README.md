@@ -67,11 +67,11 @@ If you want to check the live demo of my portfolio, please click 😊 [here](htt
 <!-- PREREQUISITIES -->
 ## **Prerequisites 🧱**<a name="prerequisites"></a>
 
-In order to run this project you need:
+To run this project you need:
 
-- A Github account
+- A GitHub account
 - Node JS
-- A web browser to view output e.g [Microsoft Edge](https://www.microsoft.com/en-us/edge).
+- A web browser to view output e.g. [Microsoft Edge](https://www.microsoft.com/en-us/edge).
 - An IDE e.g [Visual studio code](https://code.visualstudio.com/).
 - [A terminal](https://code.visualstudio.com/docs/terminal/basics).
 
