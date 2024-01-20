@@ -1,7 +1,7 @@
 <a name="readme-top"></a>
 
 <div align="center">
-  <img src="./src/assets/womenCoding.gif" alt="logo" width="140"  height="140" />
+  <img src="./src/assets/womenCoding.gif" alt="logo" width="150"  height="140" />
 
 #  **Official portfolio**
 This portfolio showcases my skills and expertise in software development. It includes a collection of some of my projects. 
