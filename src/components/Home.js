@@ -11,7 +11,7 @@ const Home = () => (
         <span className="name"> Marie-Grace Bahati</span>
         ,
         <br />
-        a passionate Software Engineer.
+        a passionate Software Developer.
       </p>
       <a className="projects-btn" href="#projects">See my projects</a>
     </div>

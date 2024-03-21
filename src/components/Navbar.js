@@ -14,7 +14,7 @@ const Navbar = () => {
         <span>.</span>
       </p>
       <div className={`Nav-links ${mobileMenuOpen ? 'mobile-open' : ''}`}>
-        <ul>
+        <ul className="navli">
           <li>
             <a href="#home">HOME</a>
           </li>
@@ -24,8 +24,8 @@ const Navbar = () => {
           <li>
             <a href="#projects">PROJECTS</a>
           </li>
-          <li>
-            <a href="#contact">CONTACT</a>
+          <li className="contact-btn">
+            <a className="cont" href="#contact">CONTACT</a>
           </li>
         </ul>
       </div>

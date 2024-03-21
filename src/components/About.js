@@ -2,7 +2,6 @@ import React from 'react';
 import { FaCode } from 'react-icons/fa6';
 import { BiCodeBlock } from 'react-icons/bi';
 import { HiLightBulb } from 'react-icons/hi';
-import resume from '../assets/Marie_Grace_resume.pdf';
 import '../styles/About.css';
 
 const About = () => (
@@ -24,7 +23,6 @@ const About = () => (
         {' '}
         <span className="create">Let&apos;s create something amazing together!</span>
       </p>
-      <a href={resume} target="_blank" className="resume" rel="noreferrer">Get my resume</a>
     </div>
     <div className="lang-tools">
       <div className="part">
@@ -41,6 +39,7 @@ const About = () => (
           <li>Git</li>
           <li>GitHub</li>
           <li>Webpack</li>
+          <li>TypeScript</li>
         </ul>
       </div>
       <div className="part">
