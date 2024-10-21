@@ -49,6 +49,7 @@ const About = () => (
         </h3>
         <ul>
           <li>React</li>
+          <li>Next</li>
           <li>Ruby on Rails</li>
           <li>Tailwind</li>
           <li>Bootstrap</li>

@@ -7,7 +7,7 @@ import '../styles/Footer.css';
 
 const Footer = () => (
   <footer className="footer">
-    <p>&copy; 2023 Marie-Grace Bahati. All rights reserved.</p>
+    <p>&copy; 2024 Marie-Grace Bahati. All rights reserved.</p>
     <div className="socials">
       <a className="footer-icon" href="https://www.linkedin.com/in/marie-gr%C3%A2ce-bahati/" target="_blank" rel="noreferrer" aria-label="linkedin"><FaLinkedin /></a>
       <a className="footer-icon" href="https://github.com/mariegrace31" target="_blank" rel="noreferrer" aria-label="github"><RiGithubFill /></a>

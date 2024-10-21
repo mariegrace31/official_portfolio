@@ -89,7 +89,6 @@
   .header {
     flex-direction: row;
     gap: 20px;
-    border-bottom: 4px solid var(--main-color);
     margin-bottom: 20px;
   }
 

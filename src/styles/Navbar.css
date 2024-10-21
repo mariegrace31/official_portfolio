@@ -113,14 +113,7 @@ span {
   }
 
   .contact-btn {
-    background-color: var(--third-color);
     padding: 9px;
-    border-radius: 18px;
-    border: 2px solid var(--second-color);
-  }
-
-  .contact-btn:hover {
-    background-color: var(--second-color);
   }
 
   .navli {

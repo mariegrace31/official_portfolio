@@ -1,5 +1,4 @@
 import React from 'react';
-import Gif from '../assets/ProgrammingGif.gif';
 import '../styles/Home.css';
 
 const Home = () => (
@@ -15,7 +14,6 @@ const Home = () => (
       </p>
       <a className="projects-btn" href="#projects">See my projects</a>
     </div>
-    <img src={Gif} alt="gif" className="gif" />
   </div>
 );
 
