@@ -1,18 +1,44 @@
 import React, { useState } from 'react';
 import { FaExternalLinkAlt, FaGithub } from 'react-icons/fa';
 import { IoClose } from 'react-icons/io5';
-import bookstore from '../assets/bookstore.JPG';
-import mealGallery from '../assets/mealGallery screeshot.png';
-import calculator from '../assets/Capture2.JPG';
+import recruitment from '../assets/lkrecruitment.png';
+import evogym from '../assets/evogym.png';
+import eleka from '../assets/eleka.png';
 import airPollution from '../assets/Capture1.JPG';
 import budgetBuddy from '../assets/budgetBuddy.JPG';
-import toDo from '../assets/to-do.JPG';
 import '../styles/Projects.css';
 
 const Projects = () => {
   const projectData = [
     {
       id: 1,
+      title: 'LK Recruitment',
+      tech: ['Next.Js', 'Tailwind'],
+      image: recruitment,
+      description: 'Lk Recruitmennt is a temporary work and recruitment agency focused on connecting employers with dependable, skilled candidates. It helps businesses stay productive and individuals find the right job fit.',
+      liveDemo: 'https://lkrecruitmentrw.com/',
+      githubLink: 'https://github.com/mariegrace31/recruitment_frontend',
+    },
+    {
+      id: 2,
+      title: 'Eleka',
+      tech: ['Next.Js', 'Typescript', 'Tailwind'],
+      image: eleka,
+      description: 'Eleka is a modern web application designed to support users in navigating career transitions with confidence. It offers AI-driven career guidance, helping individuals discover paths aligned with their unique strengths, skills, and passions.',
+      liveDemo: 'https://elekainc.com/',
+      githubLink: 'https://github.com/ElekaEnterprise/frontend',
+    },
+    {
+      id: 3,
+      title: 'EvoGym',
+      tech: ['React', 'Typescript', 'CSS'],
+      image: evogym,
+      description: 'EvoGym is about a fitness landing page that offers fitness classes to help you shape your body into the best version of yourself.',
+      liveDemo: 'https://yourfitnessapp.netlify.app/',
+      githubLink: 'https://github.com/mariegrace31/fitness_app',
+    },
+    {
+      id: 4,
       title: 'Budget Buddy',
       tech: ['Ruby on Rails', 'postgreSQL', 'Tailwind'],
       image: budgetBuddy,
@@ -21,49 +47,13 @@ const Projects = () => {
       githubLink: 'https://github.com/mariegrace31/budgetBuddy',
     },
     {
-      id: 2,
+      id: 5,
       title: 'Air Pollution',
       tech: ['React', 'Redux', 'HTML', 'SASS'],
       image: airPollution,
       description: 'Air Pollution is about a mobile web application to check a list of metrics(in this case,air pollution data)',
       liveDemo: 'https://airpollution1.netlify.app/',
       githubLink: 'https://github.com/mariegrace31/react_capstone',
-    },
-    {
-      id: 3,
-      title: 'Bookstore',
-      tech: ['React', 'Redux', 'HTML', 'CSS'],
-      image: bookstore,
-      description: 'Bookstore is a web application that displays a list of books, and it allows you to add and to remove a book.',
-      liveDemo: 'https://mg-bookstore.netlify.app/',
-      githubLink: 'https://github.com/mariegrace31/bookstore',
-    },
-    {
-      id: 4,
-      title: 'Meal Gallery',
-      tech: ['HTML', 'Javascript', 'CSS'],
-      image: mealGallery,
-      description: 'Meal Gallery is an innovative app that allows you to discover a variety of delicious meals from around the world. Whether you are an experienced chef or simply a food enthusiast, this app is perfect for you.',
-      liveDemo: 'https://mariegrace31.github.io/Meal_Gallery/dist/',
-      githubLink: 'https://github.com/mariegrace31/Meal_Gallery',
-    },
-    {
-      id: 5,
-      title: 'To-do list',
-      tech: ['HTML', 'Javascript', 'CSS'],
-      image: toDo,
-      description: 'This is a responsive To-Do list app where you can add tasks, delete and/or edit them.',
-      liveDemo: 'https://bag-to-do-list.netlify.app/',
-      githubLink: 'https://github.com/mariegrace31/bag-to-do-list-app',
-    },
-    {
-      id: 6,
-      title: 'Math magicians',
-      tech: ['React', 'HTML', 'CSS'],
-      image: calculator,
-      description: 'Math Magicians is a website for all fans of mathematics. It is a Single Page App (SPA) that allows users to make simple calculations and read a random math-related quote.',
-      liveDemo: 'https://mathmagiciens.netlify.app/',
-      githubLink: 'https://github.com/mariegrace31/math_magicians',
     },
   ];
 
